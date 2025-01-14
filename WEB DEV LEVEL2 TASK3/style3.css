@@ -1,0 +1,135 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url(Untitled\ design.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+   
+}
+
+.container {
+    border-color:#110a00;
+    border-style:groove ;
+    padding: 30px;
+    border-radius: 30px;
+    width: 1500px;
+    height: 650px;
+    box-shadow: 5px 10px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 80px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+
+.task-input {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+#task-input {
+    width: 70%;
+    height:60px ;
+    padding: 8px;
+    border-radius: 20px;
+    border-color: #110a00;
+    box-shadow: #110a00;
+}
+
+button {
+    padding: 8px 10px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    width: 350px;
+    font-size: 35px;
+    margin-left: 100px;
+}
+
+button:hover {
+    background-color: #4c4ee7;
+}
+
+.task-lists {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    width:1480px;
+   
+}
+
+.list {
+    width: 48%;
+    
+}
+
+h2 {
+    font-size: 45px;
+    margin-bottom: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 200px;
+    margin-top:30px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #fc7ac1f1;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 4px;
+    width: 650px;
+}
+
+button.edit, button.delete {
+    margin-left: 10px;
+    padding: 3px 21px;
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    height: 42px;
+}
+
+button.complete {
+    background-color: #2196F3;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 4px 8px;
+    height: 42px;
+}
+
+button.complete:hover {
+    background-color: #0b7dda;
+}
+
+button.edit:hover, button.delete:hover {
+    background-color: #e53935;
+}
+
+.new{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
