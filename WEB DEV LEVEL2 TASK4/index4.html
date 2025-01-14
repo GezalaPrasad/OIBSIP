@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="style4.css">
+</head>
+<body>
+    
+    <form action="/action_page.php" target="_blank">
+    <fieldset>
+        <legend>PERSONALIA</legend>
+        
+        <!-- FIRST NAME-->
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" placeholder="Your First Name" required><br>
+      
+        <!--LAST NAME-->
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname" placeholder="Your Second Nmae" required><br><br>
+      
+        <!--EMAIL-->
+        <label for="email">Enter your email:</label><br>
+        <input type="email" id="email" name="email" placeholder="Enter Your Mail" required><br><br>
+        
+        <!--USERNAME-->
+        <label for="username">Username:</label><br>
+        <input type="text" id="username" name="username" placeholder="Create Your Username" required><br><br>
+     
+        <!--PASSWORD-->
+        <label for="pwd">Password:</label><br>
+        <input type="password" id="pwd" name="pwd" placeholder="Create Your Own Password" required><br><br>
+      
+        <!--BIRTHDAY-->
+        <label for="birthday">Birthday:</label>
+        <input type="date" id="birthday" name="birthday" required><br><br>
+       
+       <!--AGE-->
+        <label for="Age">Your Age:</label>
+        <select id="age" name="age" required>
+          <option value="10-15">10yrs-15yrs</option>
+          <option value="15-18">15yrs-18yrs</option>
+          <option value="above 18">above 18yrs</option>
+          <option value="above 25">above 25yrs</option>
+          <option value="above 35">above 35yrs</option>
+          <option value="above 45">above 45yrs</option>
+          <option value="above 60">above 60 yrs</option>
+        </select><br><br><br>
+        
+        <!--PROFESSION-->
+        <P>Profession you follow:</P>
+        <input list="browsers" name="browsers">
+        <datalist id="browsers" required>
+          <option value="Student">
+          <option value="Homemakerer">
+          <option value="Doctor">
+          <option value="Engineer">
+          <option value="Teacher">
+          <option value="Other">
+        </datalist><br><br>
+        
+        <!--MESSAGE-->
+        <P>Share with us :</P>
+        <textarea name="message" rows="4" cols="60"> Add a message/Your expectations/Your views/Your story for joining us  
+        </textarea required><BR><BR>
+       
+        <!--SITUATIONS-->
+       <p>Have you ever faced or known to any kind of harrasment:</p>
+       <input type="checkbox" id="case1" name="case1" value=" NOT FACED">
+       <label for="case1"> I have not faced such situation</label><br>
+       <input type="checkbox" id="case2" name="case2" value="FACED">
+       <label for="casee2"> I have faced such situation </label><br>
+       <input type="checkbox" id="case3" name="case3" value="learn">
+       <label for="casee3"> I am here to learn</label><br>
+       <input type="checkbox" id="case4" name="case4" value="other">
+       <label for="casee4"> other</label>
+       <br><br>
+         
+       <!--SUBMIT/RESET-->
+        <input type="submit" value="Submit" required>
+        <input type="reset" value="Reset">
+
+
+    </fieldset>
+      </form> 
+<script src="script4.js"></script>
+</body>
+</html>
